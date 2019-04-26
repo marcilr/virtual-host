@@ -1,0 +1,12 @@
+links.txt
+Created Fri Apr 26 15:11:09 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Virtual host related links
+
+
+Links
+=====
+VirtualHost Examples
+https://httpd.apache.org/docs/2.4/vhosts/examples.html
