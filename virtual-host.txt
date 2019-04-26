@@ -1,0 +1,20 @@
+virtual-host.txt
+Created Fri Apr 26 14:26:37 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Virtual host configuration
+
+
+The default apache configuration is configured with:
+
+  apache2.conf:227
+  # Include the virtual host configurations:
+  IncludeOptional sites-enabled/*.conf
+
+The sites-enabled/ directory only has the default:
+  000-default.conf -> ../sites-available/000-default.conf
+
+This is a great configuration since new virtual hosts can
+easily be added to the sites-enabled/ directory.
+
